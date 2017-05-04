@@ -26,7 +26,7 @@ var linkData = [
 
 
 [].forEach.call(navLinks, function(navLink){
-    linkData.slice().forEach(function(link){
+    linkData.forEach(function(link){
         var a = document.createElement("a");
         a.href="#";
         a.innerHTML = link.label;
