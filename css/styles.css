@@ -254,6 +254,7 @@ tfoot > tr > td {
     background-color: #DDEBE1;
     color: #328FC2;
     padding-top: 4px;
+    cursor: pointer;
 }
 
 
